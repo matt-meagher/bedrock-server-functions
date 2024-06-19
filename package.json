@@ -16,5 +16,8 @@
     "@edgio/devtools": "^7.11.4",
     "@edgio/prefetch": "^7.11.4"
   },
-  "repository": "git@github.com:edgio-docs/edgio-v7-edge-function-template.git"
+  "repository": "git@github.com:edgio-docs/edgio-v7-edge-function-template.git",
+  "dependencies": {
+    "contentful-resolve-response": "^1.8.2"
+  }
 }

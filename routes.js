@@ -20,6 +20,8 @@ export default new Router()
   //     max_age: '1d', // optionally cache the output of the edge function for 1 day
   //   }
   // })
-
+  .match('/bedrock-contentful-algolia', {
+    edge_function: './edge-functions/contentful-algolia.js',
+  })
   // plugin enabling basic Edgio functionality
   .use(edgioRoutes)

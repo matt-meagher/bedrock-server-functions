@@ -40,6 +40,22 @@ module.exports = {
       // Uncomment the following to configure a shield
       // shields: { us_east: 'DCD' },
     },
+    {
+      name: 'contentful',
+      hosts: [
+        {
+          location: 'cdn.contentful.com',
+        },
+      ]
+    },
+    {
+      name: 'algolia',
+      hosts: [
+        {
+          location: 'algolia.net',
+        },
+      ]
+    }
   ],
 
   // Uncomment the following to specify environment specific configs
