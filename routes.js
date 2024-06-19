@@ -23,5 +23,8 @@ export default new Router()
   .match('/bedrock-contentful-algolia', {
     edge_function: './edge-functions/contentful-algolia.js',
   })
+  .match('/example', {
+    edge_function: './edge-functions/example.js',
+  })
   // plugin enabling basic Edgio functionality
   .use(edgioRoutes)
