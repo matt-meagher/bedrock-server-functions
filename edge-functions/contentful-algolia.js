@@ -88,6 +88,7 @@ export async function handleHttpRequest(request, context) {
     return new Response(entries);
   } catch (error) {
     console.log("🚀 ~ handleHttpRequest ~ error:", error)
-    return new Response(error);
+    throw new Error(error);
+    // return new Response(error);
   }
 }
